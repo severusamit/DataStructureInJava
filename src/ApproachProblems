@@ -1,0 +1,16 @@
+03/Nov/2023
+Analyze the Problem --> Think of Solution --> Pen Down the Solution --> Code the Solution
+
+What is Flowchart ?
+-Debugging
+-Language Independent
+-Break down the process into smaller step [ reduce the difficulty in understanding complicated structure]
+-Amazing Documentation
+
+ Example :
+
+   [START]                       Terminator
+   [READ N]                      Input/Output
+   [Let sum =0,i=1]              Process
+   [Is I greater then N?]        Decision
+   --->   <---                   Arrow
