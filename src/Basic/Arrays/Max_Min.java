@@ -30,5 +30,6 @@ public class Max_Min
         }
         System.out.println("Max Number  : " +max);
         System.out.println("Min Number  : " +min);
+        in.close();
     }
 }
