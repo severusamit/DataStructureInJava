@@ -11,7 +11,7 @@ public class SalaryDetails
         obj.cal();
         obj.disp();
         StudentUse2 ob = new StudentUse2();
-        
+
 
     }
 }
