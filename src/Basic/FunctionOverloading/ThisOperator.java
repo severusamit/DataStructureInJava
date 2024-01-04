@@ -4,6 +4,7 @@ class aa6
     int a=10,b;
     void get(int a)
     {
+
         b=this.a+a;
     }
     void put()
