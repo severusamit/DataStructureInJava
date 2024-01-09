@@ -18,7 +18,7 @@ class merge
         name = firstName + " " + lastName;
         System.out.println("name : " +name);
 
-        System.out.println("Name  with in built function : " + firstName.concat(" ").concat(lastName));
+        System.out.println("Name  with in built function : " + firstName.concat(" /").concat(lastName));
     }
 }
 public class MergeTwoStrings {
