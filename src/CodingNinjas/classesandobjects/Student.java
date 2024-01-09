@@ -8,11 +8,12 @@ public class Student {
     {
         return rollNumber;
     }
-    public void setRollNumber(int num){
-        if(num<=0)
+    public void setRollNumber(int rollNumber){
+        if(rollNumber<=0)
         {
             return;
         }
-        rollNumber=num;
+        System.out.println("This function :"+this);
+        this.rollNumber=rollNumber; // obj.rollNum = rollNum
     }
 }
