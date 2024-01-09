@@ -3,17 +3,19 @@ package CodingNinjas.classesandobjects;
 public class Student {
     String name;
     private int rollNumber;
-
-    public int getRollNumber()
+    public Student(String n , int num)
     {
-        return rollNumber;
+        name=n;
+        rollNumber=num;
     }
-    public void setRollNumber(int rollNumber){
-        if(rollNumber<=0)
-        {
-            return;
-        }
-        System.out.println("This function :"+this);
-        this.rollNumber=rollNumber; // obj.rollNum = rollNum
+    public Student(String n)
+    {
+        name="abc";
+        rollNumber=10;
+    }
+
+    public void print()
+    {
+        System.out.println(name+ " " +rollNumber);
     }
 }
