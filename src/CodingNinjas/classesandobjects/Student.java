@@ -2,11 +2,14 @@ package CodingNinjas.classesandobjects;
 
 public class Student {
     String name;
-    private int rollNumber;
-    public Student(String n , int num)
+    final private int rollNumber;
+    double cgpa;
+    final double conversionFactor=.9;
+    int numStudents;
+    public Student(String name , int rollNumber)
     {
-        name=n;
-        rollNumber=num;
+        this.name=name;
+        this.rollNumber=rollNumber;
     }
     public Student(String n)
     {

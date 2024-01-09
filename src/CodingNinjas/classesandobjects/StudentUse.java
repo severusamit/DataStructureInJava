@@ -12,6 +12,7 @@ public class StudentUse
         s2.print();
 
 
+
 //        System.out.println("s1 :" +s1);   // address where object is stored
 //        s1.name="Amit";
 //        s1.setRollNumber(100);
