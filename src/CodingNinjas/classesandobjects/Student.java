@@ -2,6 +2,6 @@ package CodingNinjas.classesandobjects;
 
 public class Student {
     String name;
-    int rollNumber;
+    private int rollNumber;
 
 }
