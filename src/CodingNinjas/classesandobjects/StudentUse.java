@@ -9,8 +9,9 @@ public class StudentUse
         Student s1 = new Student();
         System.out.println(s1);   // address where object is stored
         s1.name="Amit";
+        s1.setRollNumber(100);
         //s1.rollNumber=100;
-        System.out.println(s1.name + " "); // +s1.rollNumber);
+        System.out.println(s1.name + " "+ s1.getRollNumber()); // +s1.rollNumber);
 
 
         Student s2 = new Student();
