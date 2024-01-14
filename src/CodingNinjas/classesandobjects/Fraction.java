@@ -91,7 +91,7 @@ public class Fraction
     {
         int newNum = f1.numerator* f2.denominator + f1.denominator*f2.numerator;
         int newDeno =f1.denominator*f2.denominator;
-        Fraction f3 = new Fraction(newNum,newDeno);
-        return f3;
+        Fraction f5 = new Fraction(newNum,newDeno);
+        return f5;
     }
 }

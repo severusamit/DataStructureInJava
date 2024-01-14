@@ -12,6 +12,8 @@ public class FractionUse
 //        f1.increment();
 //        f1.print();
         Fraction f2 = new Fraction(3,4);
+        Fraction f3 = new Fraction(2,3);
+        Fraction f4 = new Fraction(2,3);
 //        f2.print();
 //        f1.add(f2);
 //        f1.print();
@@ -19,8 +21,8 @@ public class FractionUse
 //        f1.print();
 //        f1.multiply(f2);
 //        f1.print();
-//        Fraction f3 = Fraction.add(f1,f2);
-//        f3.print();
+//        Fraction f5 = Fraction.add(f1,f2);
+//        f5.print();
         int choice;
         do {
             {
@@ -40,13 +42,13 @@ public class FractionUse
                         break;
                     case 2:
                         System.out.println("You have selected Subtraction Option");
-                        f1.subtract(f2);
-                        f1.print();
+                        f3.subtract(f2);
+                        f3.print();
                         break;
                     case 3:
                         System.out.println("You have selected Multiplication Option");
-                        f1.multiply(f2);
-                        f1.print();
+                        f4.multiply(f2);
+                        f4.print();
                         break;
                     case 4:
                         System.out.println("Exiting the Program. GoodBye! ");
